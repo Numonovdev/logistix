@@ -1,0 +1,24 @@
+.animatee{
+  animation: infinite;
+  animation-name: square;
+  animation-duration: 2s;
+}
+
+@keyframes square{
+  from{
+    left: 0;
+    color: aqua;
+  }
+  to{
+    right: 0;
+    color: red;
+  }
+}
+
+
+.shipp{
+  background-image: url(/src/assets/ship1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
